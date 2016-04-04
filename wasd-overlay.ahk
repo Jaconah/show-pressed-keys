@@ -82,9 +82,7 @@ Return
 ~*q::     ShowPress(btnQ, 2)
 ~*w::     ShowPress(btnW, 3)
 ~*e::     ShowPress(btnE, 4)
-~*a::     ShowPress(btnA, 5)
-~*R::     ShowPress(btnR, 6)
-
+~*r::     ShowPress(btnR, 5)
 
 ~q Up::     Gui, 2:  Cancel
 ~w Up::     Gui, 3:  Cancel
