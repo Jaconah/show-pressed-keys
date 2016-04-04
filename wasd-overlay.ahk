@@ -83,19 +83,13 @@ Return
 ~*w::     ShowPress(btnW, 3)
 ~*e::     ShowPress(btnE, 4)
 ~*a::     ShowPress(btnA, 5)
-~*s::     ShowPress(btnS, 6)
-~*d::     ShowPress(btnD, 7)
-~*LCtrl:: ShowPress(btnCtrl, 8)
-~*Space:: ShowPress(btnSpace, 9)
+~*R::     ShowPress(btnR, 6)
+
 
 ~q Up::     Gui, 2:  Cancel
 ~w Up::     Gui, 3:  Cancel
 ~e Up::     Gui, 4:  Cancel
-~a Up::     Gui, 5:  Cancel
-~s Up::     Gui, 6:  Cancel
-~d Up::     Gui, 7:  Cancel
-~LCtrl Up:: Gui, 8:  Cancel
-~Space Up:: Gui, 9:  Cancel
+~r Up::     Gui, 5:  Cancel
 
 ShowPress(img, guiNum)
 {
