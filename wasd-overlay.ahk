@@ -39,12 +39,9 @@ Loop, 9
 bGround :=  Gdip_CreateBitmapFromFile(imgDir "base.png")
 btnQ :=     Gdip_CreateBitmapFromFile(imgDir "q.png")
 btnW :=     Gdip_CreateBitmapFromFile(imgDir "w.png")
-btnA :=     Gdip_CreateBitmapFromFile(imgDir "a.png")
-btnS :=     Gdip_CreateBitmapFromFile(imgDir "s.png")
-btnD :=     Gdip_CreateBitmapFromFile(imgDir "d.png")
 btnE :=     Gdip_CreateBitmapFromFile(imgDir "e.png")
-btnCtrl :=  Gdip_CreateBitmapFromFile(imgDir "ctrl.png")
-btnSpace := Gdip_CreateBitmapFromFile(imgDir "space.png")
+btnR :=     Gdip_CreateBitmapFromFile(imgDir "s.png")
+
 
 ; Check to ensure we actually got a bitmap from the file, in case the file was corrupt or some other error occured
 If !bGround
