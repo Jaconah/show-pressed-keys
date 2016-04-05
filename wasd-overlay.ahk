@@ -40,7 +40,7 @@ bGround :=  Gdip_CreateBitmapFromFile(imgDir "base.png")
 btnQ :=     Gdip_CreateBitmapFromFile(imgDir "q.png")
 btnW :=     Gdip_CreateBitmapFromFile(imgDir "w.png")
 btnE :=     Gdip_CreateBitmapFromFile(imgDir "e.png")
-btnR :=     Gdip_CreateBitmapFromFile(imgDir "s.png")
+btnR :=     Gdip_CreateBitmapFromFile(imgDir "r.png")
 
 
 ; Check to ensure we actually got a bitmap from the file, in case the file was corrupt or some other error occured
