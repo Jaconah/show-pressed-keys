@@ -156,9 +156,9 @@ LoadSettings:
 	If FileExist(settings_file)
 	{
 		path := ini_load(ini, settings_file)
-		imgDir := ini_getValue(ini, Wasd, "imgDir")
-		posX := ini_getValue(ini, Wasd, "posX")
-		posY := ini_getValue(ini, Wasd, "posY")
+		imgDir := ini_getValue(ini, qwer, "imgDir")
+		posX := ini_getValue(ini, qwer, "posX")
+		posY := ini_getValue(ini, qwer, "posY")
 	}
 	Else
 	{
