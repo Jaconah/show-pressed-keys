@@ -16,11 +16,12 @@ This project contains scripts:
 
 ## Usage
 
-1. Start `qwer-overlay.ahk` 
-2. Move Gui to desired location
-3. Select 'Save Position' in Tray Menu
-4. In OBS, use Screen Capture and Chromakey on the green background
+1. Install ahk language from https://autohotkey.com/download/
+2. Start `qwer-overlay.ahk` 
+3. Move Gui to desired location
+4. Select 'Save Position' in Tray Menu
+5. In OBS, use Screen Capture and Chromakey on the green background
 
 ## To Do
 
-*None (at this time)*
+*None (at this time, hopefully for good)*
