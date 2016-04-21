@@ -30,7 +30,7 @@ OnExit, Exit
 Loop, 9
 {
 	; Create persistent background image
-	Gui, %A_Index%: -Caption +E0x80000 +LastFound +AlwaysOnTop +ToolWindow +OwnDialogs
+	Gui, %A_Index%: -Caption +E0x80000 +LastFound +AlwaysOnTop +OwnDialogs
 	Gui, %A_Index%: Show, NA
 	hwnd%A_Index% := WinExist()
 }
