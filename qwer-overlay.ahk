@@ -134,7 +134,7 @@ WM_LBUTTONDOWN()
 }
 
 SavePosition:
-	WinGetPos, winX, winY, , , wasd-overlay.ahk
+	WinGetPos, winX, winY, , , qwer-overlay.ahk
 	path := ini_load(ini, settings_file)
 	ini_replaceValue(ini, "qwer", "posX", winX)
 	ini_replaceValue(ini, "qwer", "posY", winY)
